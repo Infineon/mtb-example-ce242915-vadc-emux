@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration app="BACKEND" formatVersion="15" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.80.0" toolsPackage="ModusToolbox 3.8.0" xmlns="http://cypress.com/xsd/cydesignfile_v7">
+    <Devices>
+        <Device mpn="PSC1M3FBLGQ0AT">
+            <BlockConfig>
+                <Block location="ioss[0].port[0].pin[8]">
+                    <Aliases>
+                        <Alias value="CYBSP_RTC_XTAL1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[9]">
+                    <Aliases>
+                        <Alias value="CYBSP_RTC_XTAL2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[10]">
+                    <Aliases>
+                        <Alias value="CYBSP_XTAL1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[11]">
+                    <Aliases>
+                        <Alias value="CYBSP_XTAL2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[14]">
+                    <Aliases>
+                        <Alias value="CYBSP_SWDIO"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[15]">
+                    <Aliases>
+                        <Alias value="CYBSP_SWDCK"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[2].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_POT"/>
+                    </Aliases>
+                </Block>
+                <Personality template="psc1_pin" version="1.0" instance="LvravDv8rLM">
+                    <Block location="ioss[0].port[0].pin[2]" locked="true"/>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="JQ2nTuH5QNs">
+                    <Block location="ioss[0].port[0].pin[3]" locked="true"/>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="djMUGKBrHRc">
+                    <Block location="ioss[0].port[0].pin[4]" locked="true"/>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="8aHVn_IxYu8">
+                    <Block location="ioss[0].port[1].pin[2]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_DEBUG_UART_TX"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="UBhGMPZQmDs">
+                    <Block location="ioss[0].port[1].pin[3]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_DEBUG_UART_RX"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="KY35dugGJH4">
+                    <Block location="ioss[0].port[2].pin[8]" locked="true"/>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="jnicT-9uHM8">
+                    <Block location="ioss[0].port[4].pin[4]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_LED"/>
+                            <Alias value="CYBSP_USER_LED1"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="Kycj5vZEwiw">
+                    <Block location="ioss[0].port[4].pin[5]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_LED2"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="BPPTzwV170U">
+                    <Block location="ioss[0].port[4].pin[6]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_LED3"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="kyE7Ufptm6M">
+                    <Block location="ioss[0].port[4].pin[7]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_LED4"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_clocks" version="1.0" instance="pzZx830JunE">
+                    <Block location="scu[0].clock[0]" locked="true"/>
+                </Personality>
+                <Personality template="psc1_pclk" version="1.0" instance="NmC8_jH0-As">
+                    <Block location="scu[0].clock[0].ccuclk[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="pclk_src" value="CY_SCU_CLOCK_PCLKSRC_DOUBLE_MCLK"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_dco1" version="1.0" instance="duxB3H8d0xQ">
+                    <Block location="scu[0].clock[0].dco1[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="accuracy" value="4"/>
+                        <Param id="calibration_enable" value="false"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_dco2" version="1.0" instance="n3p0DzXYUtU">
+                    <Block location="scu[0].clock[0].dco2[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="accuracy" value="4"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_fdivclk" version="1.0" instance="uKC0OkkLR_A">
+                    <Block location="scu[0].clock[0].fdivclk[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="configuration" value="auto"/>
+                        <Param id="dclk_src" value="CY_SCU_CLOCK_DCLKSRC_DCO1"/>
+                        <Param id="fdiv_frequency" value="96.000"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_mclk" version="1.0" instance="Ntm42X2E9G4">
+                    <Block location="scu[0].clock[0].periclk[0]" locked="true"/>
+                </Personality>
+                <Personality template="psc1_rtcclk" version="1.0" instance="SNrMPJXJSTA">
+                    <Block location="scu[0].clock[0].rtcclk[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="rtc_src" value="CY_SCU_CLOCK_RTCCLKSRC_DCO2"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_intcr" version="1.0" instance="X-I24ERvqfY">
+                    <Block location="scu[0].intcr[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="intsel0" value="NC"/>
+                        <Param id="intsel1" value="NC"/>
+                        <Param id="intsel10" value="NC"/>
+                        <Param id="intsel11" value="NC"/>
+                        <Param id="intsel12" value="NC"/>
+                        <Param id="intsel13" value="NC"/>
+                        <Param id="intsel14" value="NC"/>
+                        <Param id="intsel15" value="NC"/>
+                        <Param id="intsel16" value="NC"/>
+                        <Param id="intsel17" value="NC"/>
+                        <Param id="intsel18" value="NC"/>
+                        <Param id="intsel19" value="NC"/>
+                        <Param id="intsel2" value="NC"/>
+                        <Param id="intsel20" value="NC"/>
+                        <Param id="intsel21" value="NC"/>
+                        <Param id="intsel22" value="NC"/>
+                        <Param id="intsel23" value="NC"/>
+                        <Param id="intsel24" value="NC"/>
+                        <Param id="intsel25" value="NC"/>
+                        <Param id="intsel26" value="NC"/>
+                        <Param id="intsel27" value="NC"/>
+                        <Param id="intsel28" value="NC"/>
+                        <Param id="intsel29" value="NC"/>
+                        <Param id="intsel3" value="NC"/>
+                        <Param id="intsel30" value="NC"/>
+                        <Param id="intsel31" value="NC"/>
+                        <Param id="intsel4" value="NC"/>
+                        <Param id="intsel5" value="NC"/>
+                        <Param id="intsel6" value="NC"/>
+                        <Param id="intsel7" value="NC"/>
+                        <Param id="intsel8" value="NC"/>
+                        <Param id="intsel9" value="CY_SCU_IRQCTRL_USIC0_SR0_IRQ9"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_uart" version="1.0" instance="bbWue4OdY4A">
+                    <Block location="usic[0].ch[1]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_DEBUG_UART"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="AlternativeInterrupt" value="false"/>
+                        <Param id="AlternativeInterruptSRSel" value="0"/>
+                        <Param id="BaudRate" value="115200"/>
+                        <Param id="BaudRateGeneratorClockSrc" value="CY_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER"/>
+                        <Param id="ClockDividerMode" value="CY_USIC_CH_BRG_CLOCK_DIVIDER_MODE_FRACTIONAL"/>
+                        <Param id="CollisionDetectionEvent" value="false"/>
+                        <Param id="DataBits" value="8"/>
+                        <Param id="DataCollisionEnabled" value="false"/>
+                        <Param id="DataLostInterrupt" value="false"/>
+                        <Param id="ExternalClockEdge" value="CY_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE"/>
+                        <Param id="FormatErrorEvent" value="false"/>
+                        <Param id="FrameLength" value="8"/>
+                        <Param id="HwTransferGatingEnabled" value="false"/>
+                        <Param id="HwTransferGatingLogic" value="CY_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_0"/>
+                        <Param id="HwTransferTriggerEdge" value="CY_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE"/>
+                        <Param id="HwTransferTriggerEnabled" value="false"/>
+                        <Param id="Oversampling" value="16"/>
+                        <Param id="ParityMode" value="CY_USIC_CH_PARITY_MODE_NONE"/>
+                        <Param id="ProtocolEventSRSel" value="0"/>
+                        <Param id="ReceiveBufferErrorEvent" value="false"/>
+                        <Param id="ReceiveBufferErrorEventSRSel" value="0"/>
+                        <Param id="ReceiverFrameFinishedEvent" value="false"/>
+                        <Param id="ReceiverInterrupt" value="true"/>
+                        <Param id="ReceiverInterruptSRSel" value="0"/>
+                        <Param id="ReceiverNoiseDetectionEvent" value="false"/>
+                        <Param id="ReceiverStartInterrupt" value="false"/>
+                        <Param id="RxFIFOPointer" value="0"/>
+                        <Param id="RxFIFOSize" value="CY_USIC_CH_FIFO_DISABLED"/>
+                        <Param id="SamplePoint" value="8"/>
+                        <Param id="ShowSystemRelatedConnections" value="false"/>
+                        <Param id="StandardReceiveBufferEvent" value="false"/>
+                        <Param id="StandardReceiveBufferEventSRSel" value="0"/>
+                        <Param id="StandardTransmitBufferEvent" value="false"/>
+                        <Param id="StandardTransmitBufferEventSRSel" value="0"/>
+                        <Param id="StartAfterInit" value="true"/>
+                        <Param id="StopBits" value="1"/>
+                        <Param id="SynchronizationBreakDetectionEvent" value="false"/>
+                        <Param id="TimeMeasurementEnabled" value="false"/>
+                        <Param id="TransmitBufferErrorEvent" value="false"/>
+                        <Param id="TransmitBufferErrorEventSRSel" value="0"/>
+                        <Param id="TransmitBufferInterrupt" value="false"/>
+                        <Param id="TransmitBufferInterruptSRSel" value="0"/>
+                        <Param id="TransmitShiftInterrupt" value="false"/>
+                        <Param id="TransmitShiftInterruptSRSel" value="0"/>
+                        <Param id="TransmitterFrameFinishedEvent" value="false"/>
+                        <Param id="TxFIFOPointer" value="0"/>
+                        <Param id="TxFIFOSize" value="CY_USIC_CH_FIFO_DISABLED"/>
+                        <Param id="configuration" value="auto"/>
+                        <Param id="inFlash" value="true"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_vadc" version="1.0" instance="kLmv6sc3NqY">
+                    <Block location="vadc[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="background_conversion_start_mode_id" value="WFS"/>
+                        <Param id="background_enable_autoscan_id" value="false"/>
+                        <Param id="background_enable_timer_mode_id" value="false"/>
+                        <Param id="background_enable_trigger_id" value="false"/>
+                        <Param id="background_gate_mode_id" value="A"/>
+                        <Param id="background_gating_selection_id" value="BLOCK"/>
+                        <Param id="background_load_mode_id" value="OVERWRITE"/>
+                        <Param id="background_source_priority_id" value="0"/>
+                        <Param id="background_specific_result_register_id" value="16"/>
+                        <Param id="background_trigger_edge_id" value="NONE"/>
+                        <Param id="background_trigger_mode_id" value="A"/>
+                        <Param id="external_event_enable_id_0" value="false"/>
+                        <Param id="external_event_enable_id_1" value="false"/>
+                        <Param id="external_event_enable_id_2" value="false"/>
+                        <Param id="external_event_enable_id_3" value="false"/>
+                        <Param id="external_event_select_type_0" value="GROUP_SR0"/>
+                        <Param id="external_event_select_type_1" value="GROUP_SR0"/>
+                        <Param id="external_event_select_type_2" value="GROUP_SR0"/>
+                        <Param id="external_event_select_type_3" value="GROUP_SR0"/>
+                        <Param id="function_configuration_background_source_init_id" value="false"/>
+                        <Param id="function_configuration_enable_gain_offset_calibration_id" value="true"/>
+                        <Param id="function_configuration_startup_calibration_id" value="true"/>
+                        <Param id="general_settings_analog_clock_divider_id" value="2"/>
+                        <Param id="general_settings_analog_reference_voltage_id" value="2"/>
+                        <Param id="general_settings_arbiter_clock_divider_id" value="1"/>
+                        <Param id="general_settings_boundary_value_0_id" value="0"/>
+                        <Param id="general_settings_boundary_value_1_id" value="0"/>
+                        <Param id="general_settings_configuration_settings_id" value="false"/>
+                        <Param id="general_settings_generate_result_event_id" value="false"/>
+                        <Param id="general_settings_result_accumulation_id" value="0"/>
+                        <Param id="general_settings_shs_clock_divider_id" value="1"/>
+                        <Param id="general_settings_wait_for_read_id" value="false"/>
+                        <Param id="groups_arbitration_mode_id_0" value="ALWAYS"/>
+                        <Param id="groups_arbitration_mode_id_1" value="ALWAYS"/>
+                        <Param id="groups_arbitration_mode_id_2" value="ALWAYS"/>
+                        <Param id="groups_arbitration_mode_id_3" value="ALWAYS"/>
+                        <Param id="groups_arbitration_slots_num_id_0" value="0"/>
+                        <Param id="groups_arbitration_slots_num_id_1" value="0"/>
+                        <Param id="groups_arbitration_slots_num_id_2" value="0"/>
+                        <Param id="groups_arbitration_slots_num_id_3" value="0"/>
+                        <Param id="groups_calibrate_after_each_conversion_id_0" value="false"/>
+                        <Param id="groups_calibrate_after_each_conversion_id_1" value="false"/>
+                        <Param id="groups_calibrate_after_each_conversion_id_2" value="false"/>
+                        <Param id="groups_calibrate_after_each_conversion_id_3" value="false"/>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_classes_emux_conv_id_0" value="3"/>
+                        <Param id="input_classes_emux_conv_id_1" value="3"/>
+                        <Param id="input_classes_emux_conv_mode_id_0" value="12BIT"/>
+                        <Param id="input_classes_emux_conv_mode_id_1" value="12BIT"/>
+                        <Param id="input_classes_std_conv_id_0" value="3"/>
+                        <Param id="input_classes_std_conv_id_1" value="3"/>
+                        <Param id="input_classes_std_conv_mode_id_0" value="12BIT"/>
+                        <Param id="input_classes_std_conv_mode_id_1" value="12BIT"/>
+                        <Param id="other_additional_clock_cycle_id" value="false"/>
+                        <Param id="other_channel_assigned_0" value="0"/>
+                        <Param id="other_channel_assigned_1" value="0"/>
+                        <Param id="other_disable_sleep_mode_id" value="false"/>
+                        <Param id="other_enable_sigma_delta_loop_id_0" value="false"/>
+                        <Param id="other_enable_sigma_delta_loop_id_1" value="false"/>
+                        <Param id="other_ext_mux_group_id_0" value="0"/>
+                        <Param id="other_ext_mux_group_id_1" value="0"/>
+                        <Param id="other_sample_and_hold_id_0" value="0"/>
+                        <Param id="other_sample_and_hold_id_1" value="0"/>
+                        <Param id="sample_and_hold_calibration_order_id" value="POST"/>
+                        <Param id="sample_and_hold_cycles_between_conv_id" value="0"/>
+                        <Param id="sample_and_hold_stepper_step_enabled_0" value="false"/>
+                        <Param id="sample_and_hold_stepper_step_enabled_1" value="false"/>
+                        <Param id="sample_and_hold_stepper_step_enabled_2" value="false"/>
+                        <Param id="sample_and_hold_stepper_step_enabled_3" value="false"/>
+                        <Param id="sample_and_hold_stepper_step_enabled_4" value="false"/>
+                        <Param id="sample_and_hold_stepper_step_enabled_5" value="false"/>
+                        <Param id="sample_and_hold_stepper_step_enabled_6" value="false"/>
+                        <Param id="sample_and_hold_stepper_step_enabled_7" value="false"/>
+                        <Param id="sample_and_hold_stepper_step_group_0" value="2"/>
+                        <Param id="sample_and_hold_stepper_step_group_1" value="2"/>
+                        <Param id="sample_and_hold_stepper_step_group_2" value="2"/>
+                        <Param id="sample_and_hold_stepper_step_group_3" value="2"/>
+                        <Param id="sample_and_hold_stepper_step_group_4" value="2"/>
+                        <Param id="sample_and_hold_stepper_step_group_5" value="2"/>
+                        <Param id="sample_and_hold_stepper_step_group_6" value="2"/>
+                        <Param id="sample_and_hold_stepper_step_group_7" value="2"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_vadc-group" version="1.0" instance="yIf5sJ-tb3I">
+                    <Block location="vadc[0].group[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="group_arbitration_slot_enable_id_0" value="false"/>
+                        <Param id="group_arbitration_slot_enable_id_1" value="false"/>
+                        <Param id="group_arbitration_slot_enable_id_2" value="false"/>
+                        <Param id="group_channels_result_register_id_0" value="0"/>
+                        <Param id="group_channels_result_register_id_1" value="0"/>
+                        <Param id="group_channels_result_register_id_2" value="2"/>
+                        <Param id="group_channels_result_register_id_3" value="3"/>
+                        <Param id="group_channels_result_register_id_4" value="4"/>
+                        <Param id="group_channels_result_register_id_5" value="5"/>
+                        <Param id="group_channels_result_register_id_6" value="6"/>
+                        <Param id="group_channels_result_register_id_7" value="7"/>
+                        <Param id="group_input_classes_emux_conv_mode_id_0" value="12BIT"/>
+                        <Param id="group_input_classes_emux_conv_mode_id_1" value="12BIT"/>
+                        <Param id="group_input_classes_phase_emux_conv_id_0" value="0"/>
+                        <Param id="group_input_classes_phase_emux_conv_id_1" value="0"/>
+                        <Param id="group_input_classes_phase_std_conv_id_0" value="0"/>
+                        <Param id="group_input_classes_phase_std_conv_id_1" value="0"/>
+                        <Param id="group_input_classes_std_conv_mode_id_0" value="12BIT"/>
+                        <Param id="group_input_classes_std_conv_mode_id_1" value="12BIT"/>
+                        <Param id="group_other_boundaries_flag_activation_id_0" value="ABOVE"/>
+                        <Param id="group_other_boundaries_flag_activation_id_1" value="ABOVE"/>
+                        <Param id="group_other_boundaries_flag_activation_id_2" value="ABOVE"/>
+                        <Param id="group_other_boundaries_flag_activation_id_3" value="ABOVE"/>
+                        <Param id="group_other_boundaries_flag_enable_id_0" value="false"/>
+                        <Param id="group_other_boundaries_flag_enable_id_1" value="false"/>
+                        <Param id="group_other_boundaries_flag_enable_id_2" value="false"/>
+                        <Param id="group_other_boundaries_flag_enable_id_3" value="false"/>
+                        <Param id="group_other_boundaries_flag_invert_id_0" value="false"/>
+                        <Param id="group_other_boundaries_flag_invert_id_1" value="false"/>
+                        <Param id="group_other_boundaries_flag_invert_id_2" value="false"/>
+                        <Param id="group_other_boundaries_flag_invert_id_3" value="false"/>
+                        <Param id="group_other_boundaries_flag_operation_id_0" value="CY_VADC_GROUP_BOUNDARY_FLAG_MODE_ENABLED"/>
+                        <Param id="group_other_boundaries_flag_operation_id_1" value="CY_VADC_GROUP_BOUNDARY_FLAG_MODE_ENABLED"/>
+                        <Param id="group_other_boundaries_flag_operation_id_2" value="CY_VADC_GROUP_BOUNDARY_FLAG_MODE_ENABLED"/>
+                        <Param id="group_other_boundaries_flag_operation_id_3" value="CY_VADC_GROUP_BOUNDARY_FLAG_MODE_ENABLED"/>
+                        <Param id="group_other_boundaries_value_id_0" value="0"/>
+                        <Param id="group_other_boundaries_value_id_1" value="0"/>
+                        <Param id="group_other_mux_channel_id_0" value="false"/>
+                        <Param id="group_other_mux_channel_id_1" value="true"/>
+                        <Param id="group_other_mux_channel_id_2" value="false"/>
+                        <Param id="group_other_mux_channel_id_3" value="false"/>
+                        <Param id="group_other_mux_channel_id_4" value="false"/>
+                        <Param id="group_other_mux_channel_id_5" value="false"/>
+                        <Param id="group_other_mux_channel_id_6" value="false"/>
+                        <Param id="group_other_mux_channel_id_7" value="false"/>
+                        <Param id="group_other_mux_coding_id" value="BINARY"/>
+                        <Param id="group_other_mux_mode_id" value="SEQUENCEMODE"/>
+                        <Param id="group_other_mux_sample_time_id" value="1"/>
+                        <Param id="group_other_mux_start_id" value="7"/>
+                        <Param id="group_other_sync_id" value="4"/>
+                        <Param id="group_request_sources_assigned_channel_id_0" value="false"/>
+                        <Param id="group_request_sources_assigned_channel_id_1" value="false"/>
+                        <Param id="group_request_sources_assigned_channel_id_2" value="false"/>
+                        <Param id="group_request_sources_assigned_channel_id_3" value="false"/>
+                        <Param id="group_request_sources_assigned_channel_id_4" value="false"/>
+                        <Param id="group_request_sources_assigned_channel_id_5" value="false"/>
+                        <Param id="group_request_sources_assigned_channel_id_6" value="false"/>
+                        <Param id="group_request_sources_assigned_channel_id_7" value="false"/>
+                        <Param id="group_request_sources_autoscan_enabled_id" value="false"/>
+                        <Param id="group_request_sources_background_assigned_channel_id_0" value="false"/>
+                        <Param id="group_request_sources_background_assigned_channel_id_1" value="false"/>
+                        <Param id="group_request_sources_background_assigned_channel_id_2" value="false"/>
+                        <Param id="group_request_sources_background_assigned_channel_id_3" value="false"/>
+                        <Param id="group_request_sources_background_assigned_channel_id_4" value="false"/>
+                        <Param id="group_request_sources_background_assigned_channel_id_5" value="false"/>
+                        <Param id="group_request_sources_background_assigned_channel_id_6" value="false"/>
+                        <Param id="group_request_sources_background_assigned_channel_id_7" value="false"/>
+                        <Param id="group_request_sources_event_id_0" value="false"/>
+                        <Param id="group_request_sources_event_id_1" value="false"/>
+                        <Param id="group_request_sources_event_id_2" value="false"/>
+                        <Param id="group_request_sources_event_id_3" value="false"/>
+                        <Param id="group_request_sources_event_id_4" value="false"/>
+                        <Param id="group_request_sources_event_id_5" value="false"/>
+                        <Param id="group_request_sources_event_id_6" value="false"/>
+                        <Param id="group_request_sources_event_id_7" value="true"/>
+                        <Param id="group_request_sources_external_trigger_edge_id" value="CY_VADC_TRIGGER_EDGE_NONE"/>
+                        <Param id="group_request_sources_external_trigger_event_id" value="CY_VADC_TRIGGER_EDGE_NONE"/>
+                        <Param id="group_request_sources_external_trigger_id" value="false"/>
+                        <Param id="group_request_sources_gating_functionality_id" value="IGNORE"/>
+                        <Param id="group_request_sources_queue_input_id_0" value="None"/>
+                        <Param id="group_request_sources_queue_input_id_1" value="None"/>
+                        <Param id="group_request_sources_queue_input_id_2" value="None"/>
+                        <Param id="group_request_sources_queue_input_id_3" value="None"/>
+                        <Param id="group_request_sources_queue_input_id_4" value="None"/>
+                        <Param id="group_request_sources_queue_input_id_5" value="None"/>
+                        <Param id="group_request_sources_queue_input_id_6" value="None"/>
+                        <Param id="group_request_sources_queue_input_id_7" value="1"/>
+                        <Param id="group_request_sources_queue_specific_result_id" value="16"/>
+                        <Param id="group_request_sources_refill_id_0" value="false"/>
+                        <Param id="group_request_sources_refill_id_1" value="false"/>
+                        <Param id="group_request_sources_refill_id_2" value="false"/>
+                        <Param id="group_request_sources_refill_id_3" value="false"/>
+                        <Param id="group_request_sources_refill_id_4" value="false"/>
+                        <Param id="group_request_sources_refill_id_5" value="false"/>
+                        <Param id="group_request_sources_refill_id_6" value="false"/>
+                        <Param id="group_request_sources_refill_id_7" value="true"/>
+                        <Param id="group_request_sources_scan_external_trigger_id" value="false"/>
+                        <Param id="group_request_sources_scan_gating_functionality_id" value="BLOCK"/>
+                        <Param id="group_request_sources_scan_request_interrupt_id" value="false"/>
+                        <Param id="group_request_sources_scan_specific_result_id" value="16"/>
+                        <Param id="group_request_sources_scan_timer_mode_id" value="false"/>
+                        <Param id="group_request_sources_timer_mode_id" value="false"/>
+                        <Param id="group_request_sources_trigger_id_0" value="false"/>
+                        <Param id="group_request_sources_trigger_id_1" value="false"/>
+                        <Param id="group_request_sources_trigger_id_2" value="false"/>
+                        <Param id="group_request_sources_trigger_id_3" value="false"/>
+                        <Param id="group_request_sources_trigger_id_4" value="false"/>
+                        <Param id="group_request_sources_trigger_id_5" value="false"/>
+                        <Param id="group_request_sources_trigger_id_6" value="false"/>
+                        <Param id="group_request_sources_trigger_id_7" value="false"/>
+                        <Param id="group_result_registers_compare_ref_value_id_0" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_1" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_10" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_11" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_12" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_13" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_14" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_15" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_2" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_3" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_4" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_5" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_6" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_7" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_8" value="0"/>
+                        <Param id="group_result_registers_compare_ref_value_id_9" value="0"/>
+                        <Param id="group_result_registers_configure_register_id_0" value="true"/>
+                        <Param id="group_result_registers_configure_register_id_1" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_10" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_11" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_12" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_13" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_14" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_15" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_2" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_3" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_4" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_5" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_6" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_7" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_8" value="false"/>
+                        <Param id="group_result_registers_configure_register_id_9" value="false"/>
+                        <Param id="group_result_registers_dmm_id_0" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_1" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_10" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_11" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_12" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_13" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_14" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_15" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_2" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_3" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_4" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_5" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_6" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_7" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_8" value="REDUCTION"/>
+                        <Param id="group_result_registers_dmm_id_9" value="REDUCTION"/>
+                        <Param id="group_result_registers_enable_fifo_id_0" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_1" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_10" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_11" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_12" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_13" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_14" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_15" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_2" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_3" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_4" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_5" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_6" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_7" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_8" value="false"/>
+                        <Param id="group_result_registers_enable_fifo_id_9" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_0" value="true"/>
+                        <Param id="group_result_registers_enable_wfr_id_1" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_10" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_11" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_12" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_13" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_14" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_15" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_2" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_3" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_4" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_5" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_6" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_7" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_8" value="false"/>
+                        <Param id="group_result_registers_enable_wfr_id_9" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_0_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_0_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_0_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_0_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_10_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_10_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_10_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_10_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_11_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_11_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_11_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_11_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_12_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_12_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_12_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_12_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_13_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_13_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_13_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_13_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_14_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_14_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_14_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_14_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_15_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_15_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_15_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_15_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_1_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_1_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_1_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_1_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_2_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_2_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_2_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_2_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_3_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_3_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_3_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_3_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_4_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_4_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_4_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_4_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_5_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_5_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_5_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_5_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_6_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_6_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_6_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_6_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_7_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_7_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_7_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_7_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_8_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_8_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_8_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_8_3" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_9_0" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_9_1" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_9_2" value="false"/>
+                        <Param id="group_result_registers_external_event_enable_id_9_3" value="false"/>
+                        <Param id="group_result_registers_filter_type_id_0" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_1" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_10" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_11" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_12" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_13" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_14" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_15" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_2" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_3" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_4" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_5" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_6" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_7" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_8" value="0"/>
+                        <Param id="group_result_registers_filter_type_id_9" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_0" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_1" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_10" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_11" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_12" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_13" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_14" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_15" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_2" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_3" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_4" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_5" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_6" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_7" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_8" value="0"/>
+                        <Param id="group_result_registers_number_of_results_id_9" value="0"/>
+                        <Param id="group_result_registers_request_sources_only_id_0" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_1" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_10" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_11" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_12" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_13" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_14" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_15" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_2" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_3" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_4" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_5" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_6" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_7" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_8" value="false"/>
+                        <Param id="group_result_registers_request_sources_only_id_9" value="false"/>
+                        <Param id="group_result_registers_result_event_id_0" value="true"/>
+                        <Param id="group_result_registers_result_event_id_1" value="false"/>
+                        <Param id="group_result_registers_result_event_id_10" value="false"/>
+                        <Param id="group_result_registers_result_event_id_11" value="false"/>
+                        <Param id="group_result_registers_result_event_id_12" value="false"/>
+                        <Param id="group_result_registers_result_event_id_13" value="false"/>
+                        <Param id="group_result_registers_result_event_id_14" value="false"/>
+                        <Param id="group_result_registers_result_event_id_15" value="false"/>
+                        <Param id="group_result_registers_result_event_id_2" value="false"/>
+                        <Param id="group_result_registers_result_event_id_3" value="false"/>
+                        <Param id="group_result_registers_result_event_id_4" value="false"/>
+                        <Param id="group_result_registers_result_event_id_5" value="false"/>
+                        <Param id="group_result_registers_result_event_id_6" value="false"/>
+                        <Param id="group_result_registers_result_event_id_7" value="false"/>
+                        <Param id="group_result_registers_result_event_id_8" value="false"/>
+                        <Param id="group_result_registers_result_event_id_9" value="false"/>
+                        <Param id="inFlash" value="true"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_vadc-ch" version="1.0" instance="gqT1-h4hyu8">
+                    <Block location="vadc[0].group[0].ch[1]" locked="true"/>
+                    <Parameters>
+                        <Param id="group_channels_alias_value_for_conversion_requests_id" value="CY_VADC_CHANNEL_ALIAS_DISABLED"/>
+                        <Param id="group_channels_assign_channel_to_group_request_id" value="false"/>
+                        <Param id="group_channels_broken_wire_detection_channel_id" value="CY_VADC_CHANNEL_BWDCH_VAGND"/>
+                        <Param id="group_channels_enable_additional_preparation_phase_id" value="false"/>
+                        <Param id="group_channels_enable_alternate_reference_input_id" value="false"/>
+                        <Param id="group_channels_generate_channel_event_id" value="CY_VADC_CHANNEL_EVGEN_NEVER"/>
+                        <Param id="group_channels_input_class_id" value="CY_VADC_CHANNEL_CONV_GROUP_CLASS0"/>
+                        <Param id="group_channels_lower_boundary_id" value="CY_VADC_CHANNEL_BOUNDARY_GROUP_BOUND0"/>
+                        <Param id="group_channels_request_synchronized_conversion_id" value="false"/>
+                        <Param id="group_channels_result_target_background_source_id" value="0"/>
+                        <Param id="group_channels_store_results_id" value="CY_VADC_RESULT_ALIGN_LEFT"/>
+                        <Param id="group_channels_upper_boundary_id" value="CY_VADC_CHANNEL_BOUNDARY_GROUP_BOUND0"/>
+                        <Param id="inFlash" value="true"/>
+                    </Parameters>
+                </Personality>
+            </BlockConfig>
+            <Netlist>
+                <Net>
+                    <Port name="ioss[0].port[0].pin[2].digital_out[0]"/>
+                    <Port name="vadc[0].group[0].emux02[0]"/>
+                </Net>
+                <Net>
+                    <Port name="ioss[0].port[0].pin[3].digital_out[0]"/>
+                    <Port name="vadc[0].group[0].emux01[0]"/>
+                </Net>
+                <Net>
+                    <Port name="ioss[0].port[0].pin[4].digital_out[0]"/>
+                    <Port name="vadc[0].group[0].emux00[0]"/>
+                </Net>
+                <Net>
+                    <Port name="ioss[0].port[1].pin[2].digital_out[0]"/>
+                    <Port name="usic[0].ch[1].dout0[0]"/>
+                </Net>
+                <Net>
+                    <Port name="ioss[0].port[1].pin[3].digital_in[0]"/>
+                    <Port name="usic[0].ch[1].dx0[0]"/>
+                </Net>
+                <Net>
+                    <Port name="ioss[0].port[2].pin[8].analog[0]"/>
+                    <Port name="vadc[0].group[0].ch[1].ch[0]"/>
+                </Net>
+            </Netlist>
+        </Device>
+    </Devices>
+</Configuration>
